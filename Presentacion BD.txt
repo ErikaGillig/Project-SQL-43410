@@ -1,0 +1,6 @@
+Este proyecto buscando simular una base de datos de una veterinaria, mas concretamente del lado de medicina
+veterinaria. En la misma se observa una tabla base que es el cliente quien trae al establecimiento a su/s 
+mascota/s generando las tablas correspondientes a sus animales ingresados.
+Las mascotas poseen una historia clinica unica por cada uno de ellos, la misma contiene la informacion sobre
+su calendario de vacunas,tratamientos y operaciones; Ademas de los datos del veterinario y consultas realizadas
+en el lugar.
