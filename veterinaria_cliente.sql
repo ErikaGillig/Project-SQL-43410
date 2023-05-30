@@ -28,8 +28,8 @@ CREATE TABLE `cliente` (
   `id_cliente` int NOT NULL,
   `nombre` varchar(100) DEFAULT NULL,
   `apellido` varchar(100) NOT NULL,
-  `dni` int NOT NULL,
-  `Telefono` int NOT NULL,
+  `dni` bigint NOT NULL,
+  `Telefono` bigint NOT NULL,
   PRIMARY KEY (`id_cliente`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
