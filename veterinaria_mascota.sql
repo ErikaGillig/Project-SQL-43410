@@ -28,7 +28,7 @@ CREATE TABLE `mascota` (
   `id_mascota` int NOT NULL,
   `nombre` varchar(100) NOT NULL,
   `especie` varchar(100) NOT NULL,
-  `peso` decimal NOT NULL,
+  `peso` int NOT NULL,
   `sexo` int NOT NULL,
   `id_cliente` int NOT NULL,
   PRIMARY KEY (`id_mascota`),

@@ -27,7 +27,7 @@ DROP TABLE IF EXISTS `consulta`;
 CREATE TABLE `consulta` (
   `id_consulta` int NOT NULL,
   `Fecha` date NOT NULL,
-  `horario` int NOT NULL,
+  `horario` timestamp NOT NULL,
   `observaciones` varchar(1000) DEFAULT NULL,
   `id_mascota` int DEFAULT NULL,
   `id_veterinario` int DEFAULT NULL,
